@@ -1,3 +1,30 @@
+.carousel-height{
+    height: 590px;
+}
+.font-popins h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.font-popins h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.font-popins h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.font-popins p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.font-popins a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.font-popins button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
 .carousel-background-1{
     background-image: url(resources/images/cover/cover-1.png);
     background-size: 100%;
@@ -18,7 +45,7 @@
 }
 .for-dark{
     background-color: rgba(0, 0, 0, 0.6);
-    height: 600px;
+    height: 595px;
 }
 
 .footer-bg{
