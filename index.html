@@ -19,17 +19,29 @@
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container pt-lg-2 pb-lg-2">
                   <a class="navbar-brand fs-3 text-muted logo-font" href="#">ProEdu</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse  justify-content-end me-5 pe-5" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-link" href="#">Home</a>
-                      <a class="nav-link" href="#">Courses</a>
-                      <a class="nav-link" href="#">Deals</a>
-                      <a class="nav-link" href="#">Success</a>
-                      <a class="nav-link" href="#">About</a>
-                      <button type="button" class="btn btn-outline-primary ps-3 d-none d-lg-inline ms-5" data-bs-toggle="modal" data-bs-target="#signinmodel">Register</button>
+                  <div class=" d-flex gap- gap-md-0">
+                    <div class="d-flex flex-row-reverse gap-3 flex-md-row">
+                      <div class="navbar-mobile">
+                        <button class="navbar-toggler mobile-navbar-icon align-items-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse md-me-3 me-lg-5 pe-lg-5" id="navbarNavAltMarkup">
+                          <div class="navbar-nav">
+                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="#courses-sec">Courses</a>
+                            <a class="nav-link" href="#home-sec">Deals</a>
+                            <a class="nav-link" href="#">Success</a>
+                            <a class="nav-link" href="#">About</a>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div>
+                        <button type="button" class="btn btn-outline-primary ps-3 d-lg-inline ms-lg-5" data-bs-toggle="modal" data-bs-target="#signinmodel">Register</button>
+                      </div>
+                    </div>
+                    <div>
+                      
                     </div>
                   </div>
                 </div>
@@ -38,197 +50,207 @@
     </header>
     <main>
       <!-- carousel-sec start -->
-      <section class="container mt-5">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner carousel-height rounded">
-            <!-- carousel item-1 -->
-            <div class="carousel-item active ">
-              <div class="carousel-background-1 align-items-center">
-                <div class="mask for-dark d-flex flex-column align-items-center justify-content-center mb-5">
-                  <h1 class="text-center text-white mb-3">
-                    <span>Get Started Digital</span>
-                    <span>Learning</span>
-                  </h1>
-                  <p class="text-center w-75 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cupiditate maxime eligendi totam eius dignissimos nostrum reprehenderit repudiandae.</p>
-                  <div>
-                    <a class="btn btn-outline-primary text-light" href="#register-sec">Get Started</a>
+      <section class="md-mt-5" id="home-sec">
+        <div class="container p-0 rounded">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner carousel-height rounded">
+              <!-- carousel item-1 -->
+              <div class="carousel-item  active">
+                <div class=" d-flex justify-content-center align-items-center">
+                  <div class="carousel-background-1 mask for-dark d-flex flex-column align-items-center justify-content-center">
+                    <h1 class="text-center text-white mb-3 carousel-header">
+                      <span>Get Started Digital</span>
+                      <span>Learning</span>
+                    </h1>
+                    <p class="text-center w-75 text-light carousel-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cupiditate maxime eligendi totam eius dignissimos nostrum reprehenderit repudiandae.</p>
+                    <div>
+                      <a class="btn btn-outline-primary text-light" href="#register-sec">Get Started</a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- carousel item-2 -->
-            <div class="carousel-item">
-              <div class="carousel-background-2 align-items-center">
-                <div class="mask for-dark d-flex flex-column align-items-center justify-content-center mb-5">
-                  <h1 class="text-center text-white mb-3">
-                    <span>Get Started Digital</span>
-                    <span>Learning</span>
-                  </h1>
-                  <p class="text-center w-75 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cupiditate maxime eligendi totam eius dignissimos nostrum reprehenderit repudiandae.</p>
-                  <div>
-                    <a class="btn btn-outline-primary text-light" href="#register-sec">Get Started</a>
+              <!-- carousel item-2 -->
+              <div class="carousel-item">
+                <div class="carousel-background-2 d-flex justify-content-center align-items-center">
+                  <div class="mask d-flex flex-column align-items-center justify-content-center">
+                    <h1 class="text-center text-white mb-3 carousel-header">
+                      <span>Get Started Digital</span>
+                      <span>Learning</span>
+                    </h1>
+                    <p class="text-center w-75 text-light carousel-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cupiditate maxime eligendi totam eius dignissimos nostrum reprehenderit repudiandae.</p>
+                    <div>
+                      <a class="btn btn-outline-primary text-light" href="#register-sec">Get Started</a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- carousel item-3 -->
-            <div class="carousel-item ">
-              <div class="carousel-background-3 align-items-center">
-                <div class="mask for-dark d-flex flex-column align-items-center justify-content-center mb-5">
-                  <h1 class="text-center text-white mb-3">
-                    <span>Get Started Digital</span>
-                    <span>Learning</span>
-                  </h1>
-                  <p class="text-center w-75 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cupiditate maxime eligendi totam eius dignissimos nostrum reprehenderit repudiandae.</p>
-                  <div>
-                    <a class="btn btn-outline-primary text-light" href="#register-sec">Get Started</a>
+              <!-- carousel item-3 -->
+              <div class="carousel-item ">
+                <div class="carousel-background-3 d-flex justify-content-center align-items-center">
+                  <div class="mask d-flex flex-column align-items-center justify-content-center">
+                    <h1 class="text-center text-white mb-3 carousel-header">
+                      <span>Get Started Digital</span>
+                      <span>Learning</span>
+                    </h1>
+                    <p class="text-center w-75 text-light carousel-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cupiditate maxime eligendi totam eius dignissimos nostrum reprehenderit repudiandae.</p>
+                    <div>
+                      <a class="btn btn-outline-primary text-light" href="#register-sec">Get Started</a>
+                    </div>
                   </div>
                 </div>
               </div>
+             
             </div>
-           
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </section>
       <!-- carousel-sec end -->
       <!-- courses sec start -->
-      <section>
+      <section id="courses-sec">
         <div class="d-flex flex-column align-items-center gap-4 mb-5">
-          <h1 class="d-flex flex-column text-center pt-5 mt-5">
+          <h1 class="d-flex  gap-1 flex-column text-center sec-title pt-5  mt-lg-5">
             <span>Discover Our Popular</span>
             <span>Courses</span>
           </h1>
-          <p class="w-50 d-flex justify-content-center text-center">
+          <p class="w-75 d-flex justify-content-center text-center">
             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
           </p>
         </div>
-        <div class="container d-grid grid-column-2">
+        <div class="container d-grid grid-column-1">
           
-          <div class="container text-center">
-            <div class="row row-cols-2 gy-4">
+          <div class="text-center">
+            <div class="row row-cols-1 row-cols-xl-2 g-4">
               <!-- courses 1 start -->
               <div class="col">
-                <div class="d-flex align-items-center gap-3 border rounded">
-                  <div>
-                    <img class="img-fluid" src="resources/images/course/course-1.png" alt="">
-                  </div>
-                  <div class="text-start">
-                    <h3>Fundamental Of UI/UX Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    <h5>Price : 20$</h5>
+                <div class="d-flex p-0 justify-content-center">
+                  <div class="d-flex flex-column course-student-width flex-sm-row align-items-center gap-3 m-0 border rounded">
+                    <img class="img-fluid rounded-start" src="resources/images/course/course-1.jpg" alt="">
+                    <div class="text-start ms-2 me-2 ms-sm-0 me-lg-2">
+                      <h3 class="h5">Fundamental Of UI/UX Design</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                      <h5>Price : 20$</h5>
+                    </div>
                   </div>
                 </div>
               </div>
               
               <!-- courses 2 start -->
               <div class="col">
-                <div class="d-flex align-items-center gap-3 border rounded">
-                  <div>
-                    <img class="img-fluid" src="resources/images/course/course-2.png" alt="">
-                  </div>
-                  <div class="text-start">
-                    <h3>Javascript Basic to advanced</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    <h5>Price : 20$</h5>
+                <div class="d-flex p-0 justify-content-center">
+                  <div class="d-flex flex-column course-student-width flex-sm-row align-items-center gap-3 m-0 border rounded">
+                    <img class="img-fluid rounded-start" src="resources/images/course/course-2.jpg" alt="">
+                    <div class="text-start ms-2 me-2 ms-sm-0 me-lg-2">
+                      <h3 class="h5">Javascript Basic to advanced</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                      <h5>Price : 20$</h5>
+                    </div>
                   </div>
                 </div>
               </div>
               
               <!-- courses 3 start -->
               <div class="col">
-                <div class="d-flex align-items-center gap-3 border rounded">
-                  <div>
-                    <img class="img-fluid" src="resources/images/course/course-3.png" alt="">
-                  </div>
-                  <div class="text-start">
-                    <h3>Fullstack Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    <h5>Price : 20$</h5>
+                <div class=" d-flex p-0 justify-content-center">
+                  <div class="d-flex flex-column course-student-width flex-sm-row align-items-center gap-3 m-0 border rounded">
+                    <img class="img-fluid rounded-start" src="resources/images/course/course-3.jpg" alt="">
+                    <div class="text-start ms-2 me-2 ms-sm-0 me-lg-2">
+                      <h3 class="h5">Fullstack Web Development</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                      <h5>Price : 20$</h5>
+                    </div>
                   </div>
                 </div>
               </div>
               
               <!-- courses 4 start -->
+             
               <div class="col">
-                <div class="d-flex align-items-center gap-3 border rounded">
-                  <div>
-                    <img class="img-fluid" src="resources/images/course/course-4.png" alt="">
-                  </div>
-                  <div class="text-start">
-                    <h3>Digital Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    <h5>Price : 20$</h5>
+                <div class=" d-flex p-0 justify-content-center">
+                  <div class="d-flex flex-column course-student-width flex-sm-row align-items-center gap-3 m-0 border rounded">
+                    <img class="img-fluid rounded-start" src="resources/images/course/course-4.jpg" alt="">
+                    <div class="text-start ms-2 me-2 ms-sm-0 me-lg-2">
+                      <h3 class="h5">Digital Marketing</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                      <h5>Price : 20$</h5>
+                    </div>
                   </div>
                 </div>
-              </div>
-              
+               </div>
+
               <!-- courses 5 start -->
-              <div class="col">
-                <div class="d-flex align-items-center gap-3 border rounded">
-                  <div>
-                    <img class="img-fluid" src="resources/images/course/course-5.png" alt="">
-                  </div>
-                  <div class="text-start">
-                    <h3>Photography Basic Rules</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    <h5>Price : 20$</h5>
+              <div class="collapse" id="collapseCourse">
+                <div class="col">
+                  <div class=" d-flex p-0 justify-content-center">
+                    <div class=" d-flex flex-column course-student-width flex-sm-row align-items-center gap-3 m-0 border rounded">
+                      <img class="img-fluid rounded-start" src="resources/images/course/course-5.jpeg" alt="">
+                      <div class="text-start ms-2 me-2 ms-sm-0 me-lg-2">
+                        <h3 class="h5">Photography Basic Rules</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <h5>Price : 20$</h5>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-              
               <!-- courses 6 start -->
+             <div class="collapse" id="collapseCourse">
               <div class="col">
-                <div class="d-flex align-items-center gap-3 border rounded">
-                  <div>
-                    <img class="img-fluid" src="resources/images/course/course-6.png" alt="">
-                  </div>
-                  <div class="text-start">
-                    <h3>Motion Graphics</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    <h5>Price : 20$</h5>
+                <div class=" d-flex p-0 justify-content-center">
+                  <div class="d-flex flex-column course-student-width flex-sm-row align-items-center gap-3 m-0 border rounded">
+                    <img class="img-fluid rounded-start" src="resources/images/course/course-6.jpg" alt="">
+                    <div class="text-start ms-2 me-2 ms-sm-0 me-lg-2">
+                      <h3 class="h5">Motion Graphics</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                      <h5>Price : 20$</h5>
+                    </div>
                   </div>
                 </div>
-              </div>
+               </div>
+             </div>
               
              
             </div>
           </div>
         </div>
         <div class="d-flex justify-content-center mt-5">
-          <button type="button" class="btn btn-primary">See More Courses</button>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCourse" aria-expanded="false" aria-controls="collapseCourse">
+            See More
+          </button>
         </div>
       </section>
       <!-- courses sec end -->
       <!-- explore-sec start -->
       <section>
-        <div class="container d-flex gap-5 pt-5 mt-5">
-         <div>
-           <img src="resources/images/working.png" alt="">
+        <div class="container d-flex flex-column flex-md-row align-items-center gap-3 pt-5 mt-5">
+         <div class="col-10 col-sm-7 col-md-5">
+           <img class="img-fluid" src="resources/images/working.png" alt="">
          </div>
-         <div class="d-flex flex-column justify-content-center">
-           <h1>Explore The Elearning Institute</h1>
-           <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem architecto modi saepe, eligendi earum doloremque iste odit voluptas repudiandae magnam sit, deleniti rerum natus nihil quidem sunt cumque aut et qui, laudantium dolor illo. Nostrum.</p>
-           <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni reiciendis eius debitis blanditiis quam dolore pariatur qui quod, laboriosam provident.</p>
-           <div class="d-flex justify-content-around mt-4">
+         <div class="d-flex flex-column col-12 col-md-7 justify-content-center">
+           <h1 class="sec-title text-center text-md-start mt-4">Explore The Elearning Institute</h1>
+           <p class="mt-3 pe-3 mb-0 text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde minima tenetur enim. Omnis possimus similique dicta veniam numquam? Dolorum autem saepe laboriosam excepturi?<span class="collapse" id="collapseExploreP"> Facere sit veniam expedita earum beatae vero, distinctio, facilis et aut tempora numquam libero rem exercitationem, ipsam provident ipsa similique! Cupiditate ea debitis eius veritatis consectetur pariatur repellendus, aspernatur molestias, minima exercitationem facilis aut. Nobis quia sapiente quibusdam error dolorem modi odio nam sunt quasi, cum natus magnam dicta vero laboriosam recusandae velit deleniti rem. Atque necessitatibus quia magni asperiores deserunt possimus in sint quod, consectetur excepturi optio, laudantium ipsa autem quas, repellat nobis delectus libero rem.</span><a class="btn text-primary border-0 ps-1" data-bs-toggle="collapse" href="#collapseExploreP" role="button" aria-expanded="false" aria-controls="collapseExploreP">
+            See More
+          </a> 
+            </p>
+           <div class="d-flex justify-content-around gap-3 mt-4">
               <div>
-               <h2>3.2K+</h2>
-               <h5>Online Course</h5>
+               <h2 class="text-center text-md-start">3.2K+</h2>
+               <h5 class="text-center text-md-start">Online Course</h5>
               </div>
               <div>
-               <h2>600K+</h2>
-               <h5>Expert Member</h5>
+               <h2 class="text-center text-md-start">600K+</h2>
+               <h5 class="text-center text-md-start">Expert Member</h5>
               </div>
               <div>
-               <h2>1K+</h2>
-               <h5>Rating & Review</h5>
+               <h2 class="text-center text-md-start">1K+</h2>
+               <h5 class="text-center text-md-start">Rating & Review</h5>
               </div>
            </div>
          </div>
@@ -237,10 +259,15 @@
        <!-- explore-sec end -->
        <!-- register sec start -->
        <section id="register-sec" class="mt-5 pt-5">
-        <div class="container bg-primary mt-5 rounded d-flex">
-          <div class="w-50 pt-5 pb-5 ps-5">
+        <div class="container bg-primary mt-5 rounded d-flex flex-column flex-md-row">
+          <div class="w-md-50 w-100 pt-5 p-3 pb-md-5 ps-md-5">
             <h2 class="text-white">Ready to join?</h2>
             <p class="text-white mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae dicta consequatur modi maiores enim quisquam error incidunt repellat, alias blanditiis!</p>
+          </div>
+          <div class="d-flex w-100 w-md-50 p-3 justify-content-center align-items-center">
+            <div>
+              <button type="button" class="btn btn-light ps-md-4 pe-md-4 pt-md-2 pb-md-2" data-bs-toggle="modal" data-bs-target="#signinmodel">Register Now</button>
+            </div>
           </div>
           <!-- Button trigger modal -->
 
@@ -290,72 +317,144 @@
             </div>
           </div>
           <!-- madal fished -->
-          <div class="d-flex w-50 justify-content-center align-items-center">
-            <div>
-              <button type="button" class="btn btn-light ps-4 pe-4 pt-2 pb-2" data-bs-toggle="modal" data-bs-target="#signinmodel">Register Now</button>
-            </div>
-          </div>
+          
         </div>
        </section>
        <!-- register sec end -->
        <!-- student sec start -->
        <section>
         <div class="container mt-5 pt-5 d-flex flex-column align-items-center">
-          <h1>Meet Our Successfull Students</h1>
-          <p class="text-center w-75 pt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati vel eum at porro, sequi qui ducimus? Nisi magnam praesentium repellendus.</p>
-          <div class="row mt-4">
+          <h1 class="sec-title text-center">Meet Our Successfull Students</h1>
+          <p class="text-center w-100 w-md-75 pt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati vel eum at porro, sequi qui ducimus? Nisi magnam praesentium repellendus.</p>
+          <div class="container d-grid grid-cols-1">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
   
-            <!-- student 1 -->
-            <div class="col-3">
-              <div class="card">
-                <img src="resources/images/student/student-1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Awlad Hossain</h5>
-                  <p class="card-text">UI/UX Designer</p>
+              <!-- student 1 -->
+              <div>
+                <div class="col">
+                  <div class="d-flex justify-content-center">
+                    <div class="card course-student-width">
+                      <img class="img-fluid" src="resources/images/student/student-1.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Awlad Hossain</h5>
+                        <p class="card-text">UI/UX Designer</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!-- student 2 -->
-            <div class="col-3">
-              <div class="card">
-                <img src="resources/images/student/student-2.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Jannatul Islam</h5>
-                  <p class="card-text">Motion Design</p>
+              <!-- student 2 -->
+              <div>
+                <div class="col">
+                  <div class="d-flex justify-content-center">
+                    <div class="card course-student-width">
+                      <img class="img-fluid" src="resources/images/student/student-2.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Jannatul Islam</h5>
+                        <p class="card-text">Motion Design</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!-- student 3 -->
-            <div class="col-3">
-              <div class="card">
-                <img src="resources/images/student/student-3.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Imran Hossain</h5>
-                  <p class="card-text">Graphic Designer</p>
+              <!-- student 3 -->
+              <div>
+                <div class="col">
+                  <div class="d-flex justify-content-center">
+                    <div class="card">
+                      <img class="img-fluid" src="resources/images/student/student-3.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Imran Hossain</h5>
+                        <p class="card-text">Graphic Designer</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!-- student 4 -->
-            <div class="col-3">
-              <div class="card">
-                <img src="resources/images/student/student-4.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Nishi akter</h5>
-                  <p class="card-text">Web Developer</p>
+              <!-- student 4 -->
+              <div>
+                <div class="col">
+                  <div class="d-flex justify-content-center">
+                    <div class="card">
+                      <img class="img-fluid" src="resources/images/student/student-4.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Nishi akter</h5>
+                        <p class="card-text">Web Developer</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
+              <!-- student 5 -->
+              <div class="collapse" id="collapseStudent">
+                <div class="col">
+                  <div class="d-flex justify-content-center">
+                    <div class="card">
+                      <img class="img-fluid" src="resources/images/student/student-1.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Awlad Hossain</h5>
+                        <p class="card-text">UI/UX Designer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- student 6 -->
+              <div class="collapse" id="collapseStudent">
+                <div class="col">
+                  <div class="d-flex justify-content-center">
+                    <div class="card">
+                      <img class="img-fluid" src="resources/images/student/student-2.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Jannatul Islam</h5>
+                        <p class="card-text">Motion Design</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- student 7 -->
+              <div class="collapse" id="collapseStudent">
+                <div class="col">
+                  <div class="d-flex justify-content-center">
+                    <div class="card">
+                      <img class="img-fluid" src="resources/images/student/student-3.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Imran Hossain</h5>
+                        <p class="card-text">Graphic Designer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- student 8 -->
+              <div class="collapse" id="collapseStudent">
+                <div class="col">
+                  <div class="d-flex justify-content-center">
+                    <div class="card">
+                      <img class="img-fluid" src="resources/images/student/student-4.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Nishi akter</h5>
+                        <p class="card-text">Web Developer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             
-          
-          </div>
-          <button type="button" class="btn btn-primary ps-3 pe-3 mt-5">View All</button>
-         </div>
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseStudent" aria-expanded="false" aria-controls="collapseStudent">
+                See More
+              </button>
+            </div>
        </section>
        <!-- student sec end -->
        <!-- feedback se start -->
        <section>
         <div class="container d-flex flex-column align-items-center mt-5">
-          <h1>Some Student Feedback</h1>
+          <h1 class="sec-title">Some Student Feedback</h1>
           <p class="w-75 text-center mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem blanditiis voluptates accusantium inventore dicta dolore aperiam non unde sunt natus.</p>
           <div>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -368,7 +467,7 @@
                 <!-- carousel 1 -->
                 <div class="carousel-item active">
                   <!-- carousel div -->
-                  <div class="d-flex gap-3">
+                  <div class="d-flex flex-column flex-lg-row gap-3">
                     <!-- feedback 1-->
                     <div class="p-4 border">
                       <div class="d-flex justify-content-between">
@@ -424,7 +523,7 @@
                 <!-- carousel 2 -->
                 <div class="carousel-item">
                   <!-- carousel div -->
-                  <div class="d-flex gap-3">
+                  <div class="d-flex flex-column flex-lg-row gap-3">
                     <!-- feedback 3-->
                     <div class="p-4 border">
                       <div class="d-flex justify-content-between">
@@ -495,8 +594,8 @@
        <!-- frquent question sec start -->
        <section>
         <div class="container d-flex flex-column align-items-center mt-5">
-          <h1 class="mt-5">Frequently Asked Question</h1>
-          <p class="mt-2 w-50 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae odit hic unde nesciunt numquam veniam rerum illum quo.</p>
+          <h1 class="mt-5 sec-title text-center">Frequently Asked Question</h1>
+          <p class="mt-2 w-75 w-md-50 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae odit hic unde nesciunt numquam veniam rerum illum quo.</p>
           <div class="accordion w-75 mt-3" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
@@ -554,8 +653,8 @@
     <footer class="footer-bg mt-5">
       <div class="container pt-5 pb-5 d-flex flex-column align-items-center">
         <h1 class="text-white mt-3">Pro Edu</h1>
-        <p class="text-white mt-3">Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</p>
-        <p class="text-white">Privacy Ploicy  |   Terms of use</p>
+        <p class="text-white text-center mt-3">Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</p>
+        <p class="text-white">Privacy Policy  |   Terms of use</p>
         <div class="d-flex gap-3 mt-3">
           <a href="#"><i class="fa-brands fa-square-facebook text-white h2"></i></a>
           <a href="#"><i class="fa-brands fa-square-twitter text-white h2"></i></a>
